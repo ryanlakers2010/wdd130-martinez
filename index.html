@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan: Humans VS AI</title>
+    <style>
+        :root {
+            --primary-color: #FDF1E2;
+            --secondary-color: #FF9DB1;
+            --accent-1: #FAD3A8;
+            --accent-2: #A4CEE4;
+            --text-dark: #2c3e50;
+            --bg-dark: #121212;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--text-dark);
+            color: #ffffff;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: #ffffff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--text-dark);
+            border-bottom: 2px solid var(--accent-1);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--text-dark);
+            margin-top: 1.5rem;
+        }
+
+        .color-palette {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .color-box {
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 6px;
+            font-weight: bold;
+            box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+        }
+
+        .color-box span {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: normal;
+            margin-top: 0.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .font-example {
+            border: 1px solid #eee;
+            padding: 1rem;
+            border-radius: 4px;
+            background: #fafafa;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--text-dark);
+            color: #fff;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Humans VS AI</h1>
+        <p>Site Plan & Specification Document</p>
+        <p><strong>Creator:</strong> Mikel Martinez | <strong>Course:</strong> WDD 130</p>
+    </header>
+
+    <div class="container">
+
+        <section id="overview">
+            <h2>Overview</h2>
+            <h3>Purpose</h3>
+            <p>The purpose of this website is to explain why music created by human artists is often more powerful and meaningful than music created by artificial intelligence. Another purpose of this website is to help users understand the value of creativity, emotions, and personal experiences when it comes to creating and writing music. This website will also discuss the growing use of AI in the music industry and why smaller music creators should still have the opportunity to showcase their work.</p>
+            
+            <h3>Audience</h3>
+            <p>Anyone who loves music and wants to support small creators and artists while learning about the differences between human-created and AI-generated music.</p>
+        </section>
+
+        <section id="branding">
+            <h2>Branding</h2>
+            <h3>Website Logo / Slogan</h3>
+            <p><em>Real Music VS AI: A fight for the talent</em></p>
+            
+            <h3>Style Guide & Color Palette</h3>
+            <div class="color-palette">
+                <div class="color-box" style="background-color: #FDF1E2; color: #2c3e50;">
+                    Primary
+                    <span>#FDF1E2</span>
+                </div>
+                <div class="color-box" style="background-color: #FF9DB1; color: #fff;">
+                    Secondary
+                    <span>#FF9DB1</span>
+                </div>
+                <div class="color-box" style="background-color: #FAD3A8; color: #2c3e50;">
+                    Accent 1
+                    <span>#FAD3A8</span>
+                </div>
+                <div class="color-box" style="background-color: #A4CEE4; color: #2c3e50;">
+                    Accent 2
+                    <span>#A4CEE4</span>
+                </div>
+            </div>
+
+            <h3>Typography</h3>
+            <p><strong>Heading Font:</strong> Unkept</p>
+            <div class="font-example" style="font-family: 'Courier New', sans-serif; font-size: 1.5rem; font-weight: bold;">
+                Heading Example (Unkept Mock)
+            </div>
+            <p><strong>Paragraph Font:</strong> Schoolbell cursive</p>
+            <div class="font-example" style="font-family: 'Comic Sans MS', cursive, sans-serif;">
+                Paragraph Example: Music has always been an important way for people to express emotions...
+            </div>
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation</h2>
+            <ul>
+                <li><strong>Home:</strong> Main landing and entry point.</li>
+                <li><strong>Information about this page:</strong> Explaining the core topics, history, and comparison.</li>
+                <li><strong>Sources of the information:</strong> List of articles, websites, and references used.</li>
+            </ul>
+        </section>
+
+        <section id="content">
+            <h2>Site Content Outline</h2>
+            
+            <h3>1. Home Page</h3>
+            <p>Welcome to Humans vs AI. Music has always been an important way for people to express emotions, tell stories, and connect with others. Human artists have the ability to use their experiences, creativity, and feelings to create songs that have meaning and purpose, while also connecting with people's hearts. In recent years, artificial intelligence has become capable of generating music. This website explores the differences between human-created and AI-generated music and explains why many people believe human creativity remains an important part of music.</p>
+
+            <h3>2. Topic Page (Important Information)</h3>
+            <p>Humans have been creating music for approximately 40,000 to 50,000 years. Music has become an essential part of human culture through religious hymns, musical plays, songs, and instrumental performances. Music has also inspired books, dances, and even movies.</p>
+            <p>Why has music become such an important part of our lives? One reason is its ability to express personal experiences and emotions. One example I enjoy is a song by Olivia Rodrigo from her album "GUTS." In many of her songs, she shares personal experiences and emotions from her life. This allows listeners to connect with her music and understand the feelings she is expressing. That is the power that music can have.</p>
+            <p>Recently, AI has become capable of producing music through computer programs. It analyzes music that has already been created and uses patterns to generate new songs. Even though AI can create music faster than a human, many people believe it lacks one key ingredient: the passion, emotions, and personal experiences that make music meaningful and special.</p>
+
+            <h3>3. Sources Page</h3>
+            <p>This page will contain the articles, websites, and other sources that have helped create the information presented on this website.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Humans VS AI Site Plan | Mikel Martinez | WDD 130</p>
+    </footer>
+
+</body>
+</html>
