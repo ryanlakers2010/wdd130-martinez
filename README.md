@@ -1,1 +1,1 @@
-[Insert link to your GitHub Pages site, e.g., https://ryanlakers2010.github.io/wdd130-martinez/]
+https://github.com/ryanlakers2010/ryanlakers2010
